@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Data;
 using System.Dynamic;
 using System.Security.Cryptography.X509Certificates;
@@ -113,7 +114,45 @@ namespace TheHauntedHouse
             
             public static void second()
             {
-            Console.WriteLine("Well, you are certainly committed.");
+
+                string choice
+
+                Console.WriteLine("Well, you are certainly committed to this creepy place.");
+                Console.WriteLine("The foyer floor is covered in dust.  A wet, damp, moldy smell fills the air");
+                Console.WriteLine("In front of you is a wooden staircase, to your left you can see a small dining room.");
+                Console.WriteLine("'Hello!?!' you nervously yell out, hoping for a response.");
+                Console.WriteLine("At first, you hear nothing.  Just the muffled pounding of the snow upon the roof of the house, and the sound of");
+                Console.WriteLine("your heart pumping in your chest.");
+                Console.WriteLine("That's when you notice the writing, carved into the wall by the door:");
+                Console.WriteLine("G E T");
+                Console.WriteLine(" O U T!");
+
+
+                Console.WriteLine("As you read the words aloud to yourself, you hear a loud scream from the top of the stairs!");
+                Console.WriteLine("A mass of black mist and smoke decends down the staircase towards you!");
+                Console.WriteLine("What do you do?!");
+                Console.WriteLine("A: Open the door and run for your life.");
+                Console.WriteLine("B: Charge up the stairs, towards the monster/ghost/smoke.  You are a hero afterall.");
+                Console.WriteLine("C: Run towards the dining room");
+                Console.WriteLine("D: Freeze im panic, and probably pee your pants.  You scare easily.");
+                Console.WriteLine("Choice: ");
+                choice = Console.ReadLine().ToLower();
+                Console.Clear();
+
+                switch (choice);
+                {
+                    case "a":
+                    case "A":
+                        {
+                            Console.WriteLine();
+
+
+                        }
+
+
+                }
+
+
 
             }
 
