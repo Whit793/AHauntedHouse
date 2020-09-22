@@ -1,0 +1,13 @@
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\bin\Debug\netcoreapp3.1\TheHauntedHouse.exe
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\bin\Debug\netcoreapp3.1\TheHauntedHouse.deps.json
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\bin\Debug\netcoreapp3.1\TheHauntedHouse.runtimeconfig.json
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\bin\Debug\netcoreapp3.1\TheHauntedHouse.runtimeconfig.dev.json
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\bin\Debug\netcoreapp3.1\TheHauntedHouse.dll
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\bin\Debug\netcoreapp3.1\TheHauntedHouse.pdb
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\obj\Debug\netcoreapp3.1\TheHauntedHouse.csprojAssemblyReference.cache
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\obj\Debug\netcoreapp3.1\TheHauntedHouse.AssemblyInfoInputs.cache
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\obj\Debug\netcoreapp3.1\TheHauntedHouse.AssemblyInfo.cs
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\obj\Debug\netcoreapp3.1\TheHauntedHouse.csproj.CoreCompileInputs.cache
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\obj\Debug\netcoreapp3.1\TheHauntedHouse.dll
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\obj\Debug\netcoreapp3.1\TheHauntedHouse.pdb
+C:\Users\bwhit\Desktop\Repos\TheHauntedHouse\TheHauntedHouse\TheHauntedHouse\obj\Debug\netcoreapp3.1\TheHauntedHouse.genruntimeconfig.cache
