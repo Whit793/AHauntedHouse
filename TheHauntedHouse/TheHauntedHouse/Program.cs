@@ -206,6 +206,7 @@ namespace TheHauntedHouse
                         Console.WriteLine("You make a sprint for the dining room, hoping to avaid the monster.");
                         Console.WriteLine("press enter to see your fate...");
                         Console.Clear();
+                        Third();
 
                         break;
 
@@ -214,6 +215,10 @@ namespace TheHauntedHouse
             }
 
         }
+        public static void Third() 
+        {
+        }
+
 
     }
 
