@@ -58,14 +58,17 @@ namespace TheHauntedHouse
                     case "A":
                     case "a":
                         {
-                            Console.WriteLine("You decide to stay the night in your car." { playerName), "you think to yourself, nothing more dangerous than walking on a road when no one can see.");
+                            Console.WriteLine($"You decide to stay the night in your car. {playerName}, you think to yourself, nothing more dangerous");
+                            Console.WriteLine("than walking on a road when no one can see");
                             Console.WriteLine("you bundle up in the back seat, and sleep rather peacefully.");
-                            Console.WriteLine("In the morning, the snow has stopped.  A passing police officer sees, and kindly takes you to a mechanic.");
+                            Console.WriteLine("In the morning, the snow has stopped.  A passing police officer sees you, and kindly takes you to a mechanic.");
                             Console.WriteLine("Everything is going to be just fine!");
                             Console.WriteLine("Press enter to go back to the beginning and play again.");
                             Console.ReadLine();
+                            Console.Clear();
                             GameTitle();
                             break;
+
                         }
 
                     case "B":
@@ -75,14 +78,42 @@ namespace TheHauntedHouse
                         Console.WriteLine("After an hour of walking, just before you think your toes might fall off from frost bite, you find a 24/7 diner.");
                         Console.WriteLine("you grab some food, a nice hot cup of coffee, and wait out the storm.");
                         Console.WriteLine("In the morning, you use the diner phone to call a mechanic.");
-                        Console.WriteLine("You surviced a miserable, yet uneventfull, evening" { playerName} "good for you!");
+                        Console.WriteLine("You surviced a miserable, yet uneventfull, evening {player name}  good for you!");
                         Console.WriteLine("Press enter to go back to the beginning and play again.");
                         Console.ReadLine();
+                        Console.Clear();
                         GameTitle();
                         break;
+
                     }
+                    case "C":
+                    case "c":
+                    {
+                        Console.WriteLine("You grab your coat, lock your car, and head towards the light.");
+                        Console.WriteLine("Light means electricity, which should mean warmth!  You think to yourself.");
+                        Console.WriteLine("After a few moments, you come to the front of the house.");
+                        Console.WriteLine("It towers over you at 3 stories tall, and the dark, dirty exterior sends a chill up your spine.");
+                        Console.WriteLine("As you pass through the wrought iron fence gate, you notice a light in the 3rd story window.");
+                        Console.WriteLine("While the rest of the house is bathed in darkness, at least it looks like someone is home");
+                        Console.WriteLine("You muster your courage, and give 3 quick knocks on the door, adding in a pleasent 'hello' for good measure.");
+                        Console.WriteLine($"To your surprise, the door creaks open, just barely.  You swear you hear a voice say: come on in {playerName} , but that would be crazy.");
+                        Console.WriteLine("Press Enter to walk through the door");
+                        Console.ReadLine();
+                        Console.Clear();
+                        second();
+                        break;
+                        
+
+                    }
+
                      
                 }
+
+            }
+            
+            public static void second()
+            {
+            Console.WriteLine("Well, you are certainly committed.");
 
             }
 
