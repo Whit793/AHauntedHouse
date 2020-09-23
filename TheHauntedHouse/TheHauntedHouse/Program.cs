@@ -12,7 +12,7 @@ namespace TheHauntedHouse
         static void Main(string[] args)
         {
             GameTitle();
-            first();
+            
         }
 
         public static void GameTitle()
@@ -212,11 +212,36 @@ namespace TheHauntedHouse
 
                     }
 
+                case "d":
+                case "D": 
+                    {
+                        Console.WriteLine("Let's be honest, this would the same reaction for a lot of people.");
+                        Console.WriteLine("Paralyzed by fear, you fail to make any decision, and simply stand by the door.");
+                        Console.WriteLine("You are shaking with fear");
+                        Console.WriteLine("You might have even peed your pants a little :/");
+                        Console.WriteLine("____________________________________________________");
+                        Console.WriteLine("Then the monster speaks to you:");
+                        Console.WriteLine("'Really dude?' It says in a very un monster like voice");
+                        Console.WriteLine("This is embarassing for both of us");
+                        Console.WriteLine("Honeslty, here is the passcode to the keypad... just please leave.");
+                        Console.WriteLine("You awwarkdly say thank you, open the door, and make your way back to the car.");
+                        Console.WriteLine("You wait until morning, embarassed, until a cop drives by, sees you are in trouble");
+                        Console.WriteLine("and calls a mechanic.  Best to forget this ever happen.");
+                        Console.WriteLine("Press enter to end the game");
+                        Console.Clear();
+                        GameTitle();
+                        break;
+                    }
+
+
             }
 
         }
         public static void Third() 
         {
+            string choice;
+
+                Console.WriteLine(");
         }
 
 
