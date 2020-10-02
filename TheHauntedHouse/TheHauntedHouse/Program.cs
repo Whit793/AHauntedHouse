@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Data;
 using System.Dynamic;
+using System.Linq.Expressions;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml.Serialization;
 
@@ -9,13 +10,9 @@ namespace TheHauntedHouse
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            GameTitle();
-            
-        }
+        static void Main(string[] args) => GameTitle();
 
-            public static void GameTitle()
+        public static void GameTitle()
             {
 
                 Console.WriteLine("______A Haunted House______");
@@ -28,6 +25,7 @@ namespace TheHauntedHouse
                 Console.WriteLine("Press Enter to Continue.");
                 Console.ReadLine();
                 Console.Clear();
+                first();
 
             }
 
@@ -164,9 +162,10 @@ namespace TheHauntedHouse
                                 Console.WriteLine("nice hot cup of coffee.  You wait until morning for the snowstorm to clear, and call");
                                 Console.WriteLine("a mechanic.");
                                 Console.WriteLine("press enter to play again!");
+                                Console.ReadLine();
                                 Console.Clear();
                                 GameTitle();
-
+                                
                         
                             }
                             else
@@ -181,11 +180,14 @@ namespace TheHauntedHouse
                                 Console.WriteLine("You barely fit in this thing :/");
                                 Console.WriteLine("The smoke spirit speaks to you: 'NOW YOU MUST SIT THROUGH MY 8 HOUR MATH CLASS!!!");
                                 Console.WriteLine("Press enter to play again");
+                                Console.ReadLine();
                                 Console.Clear();
                                 GameTitle();
+                                
                             }
-
                             break;
+
+                            
 
                         }
 
@@ -202,7 +204,8 @@ namespace TheHauntedHouse
                         Console.WriteLine("after you blacked out, it felt bad, so it carried you to the diner.");
                         Console.WriteLine("It even paid for your coffee, impressed by your bravery.");
                         Console.WriteLine("Press enter to play again");
-                        Console.Clear();
+                    Console.ReadLine();
+                    Console.Clear();
                         GameTitle();
                         break;
 
@@ -232,7 +235,8 @@ namespace TheHauntedHouse
                             Console.WriteLine("You awwarkdly say thank you, open the door, and make your way back to the car.");
                             Console.WriteLine("You wait until morning, embarassed, until a cop drives by, sees you are in trouble");
                             Console.WriteLine("and calls a mechanic.  Best to forget this ever happen.");
-                            Console.WriteLine("Press enter to end the game");
+                            Console.WriteLine("Press enter to play the game again.");
+                            Console.ReadLine();
                             Console.Clear();
                             GameTitle();
                             break;
@@ -270,6 +274,7 @@ namespace TheHauntedHouse
                         Console.WriteLine("it totally worked.");
                         Console.WriteLine("You make your way back to your car, and flag down a passing driver.");
                         Console.WriteLine("Press enter to play again");
+                        Console.ReadLine();
                         Console.Clear();
                         GameTitle();
                         break;
@@ -296,6 +301,7 @@ namespace TheHauntedHouse
                         Console.WriteLine("You return to your car, banged up but overall healthy.");
                         Console.WriteLine("You flag down a passing car, and they drive you to a mechanic.");
                         Console.WriteLine("press enter to play again!");
+                        Console.ReadLine();
                         Console.Clear();
                         GameTitle();
                         break;
@@ -321,8 +327,8 @@ namespace TheHauntedHouse
                         Console.WriteLine("'Unless you can solve this problem, you will be tortured here for all eternity'");
                         Console.WriteLine("--------------------------------------------------------------------------------------");
                         Console.WriteLine("'Given the legs of a right triangle, find the hypotenuse");
-                        Console.WriteLine("one leg is 2, the other is 3.  What is the answer??")
-                        int y = new int();
+                        Console.WriteLine("one leg is 2, the other is 3.  What is the answer??");
+                        var y = new int();
                         y = int.Parse(Console.ReadLine());
 
                         if (y == 13)
@@ -336,6 +342,7 @@ namespace TheHauntedHouse
                             Console.WriteLine("you make your way back to your car, and keep heading until you reach a diner.");
                             Console.WriteLine("You grab a cup of coffee, and wait till morning to call a mechanic.");
                             Console.WriteLine("Press enter to play again!");
+                            Console.ReadLine();
                             Console.Clear();
                             GameTitle();
                             break;
@@ -352,6 +359,7 @@ namespace TheHauntedHouse
                             Console.WriteLine("you make it back to your car, embarassed over forgetting basic math, but otherwise unhurt.");
                             Console.WriteLine("You wait in your car until morning, and flag down a passing truck.");
                             Console.WriteLine("press enter to play again");
+                            Console.ReadLine();
                             Console.Clear();
                             GameTitle();
                             break;
